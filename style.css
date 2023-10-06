@@ -1,0 +1,28 @@
+table{
+    background-color: rgb(236, 234, 114);
+    width: 100%;
+    margin: auto;
+    
+}
+thead tr{
+    margin-top: 20px;
+    border-bottom: 3px solid black;
+    justify-content: space-around;
+}
+
+tbody tr{
+    justify-content: space-around;
+}
+#button-modifier{
+    display: none;
+}
+
+#edit{
+    background: #0a4b02;
+    color: #fff;
+}
+
+#supp{
+    background: #740b0b;
+    color: #fff;
+}
