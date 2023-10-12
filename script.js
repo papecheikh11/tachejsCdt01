@@ -8,6 +8,7 @@ function addTask() {
   else{
     let li = document.createElement('li')
     li.innerHTML = tacheInput.value
+    li.style.alignContent = "left"
     listContainer.appendChild(li)
     let span = document.createElement('span')
     span.innerHTML = "<button>Supprimer</button>"

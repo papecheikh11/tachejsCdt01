@@ -5,6 +5,7 @@ ul li{
     user-select: none;
     cursor: pointer; 
     position: relative;
+    margin-left: -50%;
 }
 ul li::before{
     content: '';

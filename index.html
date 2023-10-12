@@ -12,17 +12,18 @@
     <h1 class="text-center my-5">Application de gestions de taches</h1>
     <div class="container col-6 ">
         <label for="tache">Ajoutez une tache</label>
-        <div class="row bg-success w-100 py-3">
+        <div class="row bg-success w-100 py-3 d-flex">
             <div class="col-lg-10 col-md-12 my-2">
                 <input type="text" class="form-control" id="tacheInput" placeholder="Ecrire tache.....">
+                <button class="btn btn-outline-warning" type="button" id="button-ajouter" onclick="addTask()">Ajouter</button>
             </div>
             <div class="col-lg-2 col-md-12 my-2">
-                <button class="btn btn-outline-warning" type="button" id="button-ajouter" onclick="addTask()">Ajouter</button>
+                
             </div>
         </div>       
     </div>
     <div class="container col-6 mt-5">
-       <ul id="list-container">
+       <ul id="list-container" class="container-fluid">
        </ul>
         
     </div>
